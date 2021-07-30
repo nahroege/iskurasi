@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ege'nin iş çekilişi</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="flex-cols">
+<<h1>Ege'nin iş çekilişi</h1>
+                <form id="add-names" class="add-names-form section" action="">
+                    <label for="names">Yeni iş ekle:</label>
+                    <br />
+                    <textarea name="names" id="names"></textarea>
+                    <br />
+                    <button type="submit" class="button">Ekle</button>
+                </form>
+
+                <div class="start-container">
+                    <button
+                     type="button"
+                     id="start-button"
+                     class="button start-button">
+                        Seç
+                    </button>
+                </div>
+
+            </div>
+
+            <ol id="selected-names-list"></ol>
+
+            <ul id="names-list" class="section"></ul>
+
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
